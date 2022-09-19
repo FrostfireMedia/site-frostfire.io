@@ -1,0 +1,5 @@
+/projects.html /projects
+/projects.html /about
+
+/projects /projects.html 200!
+/about /about.html 200!
