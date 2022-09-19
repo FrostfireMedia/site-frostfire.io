@@ -36,33 +36,27 @@
             <div class="container h-100 d-flex flex-column justify-content-center">
                 <div class="row">
                     <div class="col-md-6 col-xl-4 offset-md-2">
-                        <h1 class="text-white">Projects</h1>
+                        <h1 class="text-white">Contact us</h1>
                     </div>
                 </div>
             </div>
         </header>
-        <section>
-            <div class="container py-4 py-xl-5">
+        <section class="position-relative py-4 py-xl-5">
+            <div class="container position-relative">
                 <div class="row mb-5">
                     <div class="col-md-8 col-xl-6 text-center mx-auto">
-                        <p class="m-0">This is a complete collection of every project we've worked on including some information on what the project required.</p>
+                        <p class="w-lg-50">So you're interested in our services? Just fill in the form below and we'll reach out as soon as possible.</p>
                     </div>
                 </div>
-                <div class="row gy-4 row-cols-1 row-cols-md-2 row-cols-xl-3 justify-content-center">
-                    <div class="col project" data-aos="fade" data-aos-offset="0" data-aos-delay="250" data-aos-once="true">
-                        <div><a href="https://albertawitchesassociation.com"><img class="rounded img-fluid border d-block w-100 fit-cover" src="assets/img/projects/alberta-witches-association.png"></a>
-                            <div class="pt-4">
-                                <h4><a href="https://albertawitchesassociation.com" target="_blank">Alberta Witches Association</a></h4>
-                                <p>A Wordpress.com website. Due to the restrictive nature of the platform, we were required to think creatively to achieve a distinct design.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col project" data-aos="fade" data-aos-offset="0" data-aos-delay="250" data-aos-once="true">
-                        <div><a href="https://www.sjlevolutions.com" target="_blank" rel="external"><img class="rounded img-fluid border d-block w-100 fit-cover" src="assets/img/projects/sjl-evolutions.png"></a>
-                            <div class="pt-4">
-                                <h4><a href="https://www.sjlevolutions.com" target="_blank">SJL Evolutions</a></h4>
-                                <p>A full media package. We provided a custom Concrete CMS theme, a handmade logo, and photography for each product.</p>
-                            </div>
+                <div class="row d-flex justify-content-center">
+                    <div class="col-md-8 col-lg-6 col-xl-5">
+                        <div>
+                            <form class="p-3 p-xl-4" name="contact" netlify="">
+                                <div class="mb-3"><input class="form-control" type="text" id="contact-name" name="name" placeholder="Name"></div>
+                                <div class="mb-3"><input class="form-control" type="email" id="contact-email" name="email" placeholder="Email"></div>
+                                <div class="mb-3"><textarea class="form-control" id="contact-message" name="message" rows="6" placeholder="Message"></textarea></div>
+                                <div><button class="btn btn-primary d-block w-100" type="submit">Send </button></div>
+                            </form>
                         </div>
                     </div>
                 </div>
