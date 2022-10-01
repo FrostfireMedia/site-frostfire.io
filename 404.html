@@ -15,19 +15,22 @@
     <link rel="icon" type="image/png" sizes="512x512" href="assets/img/branding/frostfire-chrome-512.png">
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600&amp;display=swap">
-    <link rel="stylesheet" href="assets/css/styles.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+    <link rel="stylesheet" href="assets/css/styles.min.css">
 </head>
 
 <body class="d-flex flex-column">
-    <nav class="navbar navbar-dark navbar-expand-md bg-dark py-3">
-        <div class="container"><a class="navbar-brand d-flex align-items-center" href="/"><img src="assets/img/branding/frostfire-header.png" style="height: 64px;"></a><button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-2"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+    <nav class="navbar navbar-dark navbar-expand-lg bg-dark py-3">
+        <div class="container"><a class="navbar-brand d-flex align-items-center" href="/home"><img src="assets/img/branding/frostfire-header.png" style="height: 64px;"></a><button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-2"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
             <div class="collapse navbar-collapse" id="navcol-2">
                 <ul class="navbar-nav ms-auto">
-                    <li class="nav-item"><a class="nav-link" href="/">Home</a></li>
-                    <li class="nav-item"><a class="nav-link" href="projects">Projects</a></li>
-                    <li class="nav-item"><a class="nav-link" href="about">About</a></li>
-                </ul><a class="btn btn-secondary ms-md-2" role="button" href="contact-us">Contact Us</a>
+                    <li class="nav-item"><a class="nav-link" href="/home">Home</a></li>
+                    <li class="nav-item dropdown"><a class="dropdown-toggle nav-link" aria-expanded="false" data-bs-toggle="dropdown" href="#">Services&nbsp;</a>
+                        <div class="dropdown-menu"><a class="dropdown-item" href="/services/web-design">Web Design</a><a class="dropdown-item" href="/services/graphic-design">Graphic Design</a><a class="dropdown-item" href="/services/web-hosting">Web Hosting</a></div>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="/projects">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link" href="/about">About</a></li>
+                </ul><a class="btn btn-light d-flex justify-content-center d-lg-block" role="button" href="/contact-us">Contact Us</a>
             </div>
         </div>
     </nav>
